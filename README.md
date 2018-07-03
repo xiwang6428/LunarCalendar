@@ -6,13 +6,11 @@
 
 功能的实现可以说是照着写的，实现原版百分百的函数功能。
 
-使用示例：
+使用示例：(请查看index.php文件)
 
 <?php
-
 include 'CacheUtil.php';
 include 'LunarCalendar.php';
-
 $lunar = new ziweiyang\LunarCalendar();
 var_dump($lunar->calendar(2018,1,true));
 
