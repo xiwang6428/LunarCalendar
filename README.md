@@ -14,6 +14,8 @@ include 'LunarCalendar.php';
 $lunar = new ziweiyang\LunarCalendar();
 var_dump($lunar->calendar(2018,1,true));
 
+注意事项：32位系统（或32位PHP下）如果使用了2038年，才会导致溢出问题，农历计算错误。如果需要计算2038年或以上的农历，请更换为64位操作系统和64位PHP环境下使用。
+
 
 本人初测有效，暂无发现有其他运行问题。如有请告知。
 QQ:49937174
